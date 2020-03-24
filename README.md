@@ -3,6 +3,8 @@ A website for Charlotte Area Robotics built using ReactJS, TypeScript, Sass, Nod
 
 This website started as a semester long project. Find the repo for that project [here](https://github.com/mattwells19/Quick-REACTions)
 
+I then continued to work on the website in the [Offical CAR Website repo](https://github.com/car-robotics/CAR-Official-Website). After graduating from the club I no longer was in charge of the website, but I still wanted to show off what all I did to the site which is the reason for this repo. This repo contains the state of the website before it was transfered over to the new webmaster (March 24th 2020).
+
 ## Developer
 
   Matt Wells - [LinkedIn](https://www.linkedin.com/in/mwells21/)
