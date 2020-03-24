@@ -1,0 +1,17 @@
+@import "../Themes/Themes.scss";
+
+.competition-content {
+    margin: 2rem auto;
+    @include checkMobile(
+        (width, padding),
+        (85%, 1rem),
+        (70%, 2rem)
+    );
+    animation: slideInUp 1s;
+    max-width: $global-max-width;
+}
+
+.countdown {
+    @extend .competition-content;
+    animation: slideInDown 1s;
+}

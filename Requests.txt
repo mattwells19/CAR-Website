@@ -1,0 +1,18 @@
+Feedback from club officers for current site:
+  Like:
+    The colors
+    The Archive page
+    Sponsorship levels on Sponsors page
+    Information about the competition on the Competition tab
+    Format of pages
+    Navigation buttons at the top and bottom of the page including logo
+    Links to competition website and rules
+  Dislikes:
+    Fonts are inconsistent
+    Mobile version looks garbage
+    No mention of club Outreach (add Outreach tab)
+    Clicking on sponsors does not go to their website
+    Multiple backgrounds
+    Clicking on officers does not go to their LinkedIn Page
+    Feels like you could scroll forever in Archive. Need a more efficient way of organizing content on the page.
+    Home/Landing page feels empty/meaningless

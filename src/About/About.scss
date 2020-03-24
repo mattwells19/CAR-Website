@@ -1,0 +1,69 @@
+@import "../Themes/Themes.scss";
+
+.about-website-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: $global-max-width;
+    @include checkMobile(width, 85%, 60%);
+}
+
+.card-group {
+    margin: 2rem auto;
+    padding: 1rem;
+    @include checkMobile(
+        (width, max-width),
+        (85%, 25rem),
+        (95%, "")
+    );
+}
+
+.card-container {
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    @include checkMobile(
+        (display, justify-content, width), 
+        ("", "", 90%), 
+        (flex, space-evenly, "")
+    );
+}
+
+.slideshow-container {
+    margin: auto;
+    width: 85%;
+    @include checkMobile(max-width, 25rem, $global-max-width);
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.slideshow-content-container {
+    display: flex;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 0.5rem;
+    @include checkMobile(
+        (flex-direction, justify-content), 
+        (column, space-evenly), 
+        (row, center)
+    );
+}
+
+.slideshow-lower-container {
+    @include checkMobile(height, 40rem, 25rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideshow-arrow.MuiIconButton-root {
+    align-self: center;
+    width: max-content;
+    height: max-content;
+}
+
+.slide-Indicators {
+    display: flex;
+    margin: 1rem auto auto auto;
+}

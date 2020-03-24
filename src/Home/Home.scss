@@ -1,0 +1,19 @@
+@import "../Themes/Themes.scss";
+
+@mixin homePageConstants($image) {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: radial-gradient(circle, #000000, #00000055), $image;
+}
+
+.electrical {
+    @include homePageConstants(url("../Images/Electrical.jpg"));
+    margin-top: -5rem;
+}
+
+.mechanical {
+    @include homePageConstants(url("../Images/Mechanical.jpg"));
+    display: flex;
+}
